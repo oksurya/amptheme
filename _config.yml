@@ -37,6 +37,8 @@ plugins:
   - jekyll-timeago
   - jekyll-paginate
 
+paginate: 10
+paginate_path: "/page/:num/"
 
 jekyll-archives:
   enabled: [categories, tags]
