@@ -1,0 +1,10 @@
+language: ruby
+cache: bundler
+gemfile: docs/Genfile
+script: 
+ - bundle exec jekyll algelia source decs destination docs/_site config docs/_config.yml
+branches:
+  only:
+    - gh-pages
+rvm:
+ - 2.4
